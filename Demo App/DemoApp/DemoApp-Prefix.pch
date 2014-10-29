@@ -1,0 +1,38 @@
+//
+//  DemoApp-Prefix.pch
+//  Demo App
+//
+//  Created by Stas on 29/10/14.
+//
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_6_0
+#warning "This project uses features only available in iOS SDK 6.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+// Встроенные библиотеки
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+#import <CoreData/CoreData.h>
+
+// Сторонние библиотеки
+// ..
+
+/*
+ *  ============================================================================
+ *      Свои компоненты
+ *  ============================================================================
+ */
+
+// Базовые
+#import "AppDelegate.h"
+
+// Контроллеры проекта
+#import "HostViewController.h"
+
+#endif
