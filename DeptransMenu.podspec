@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
 	s.source_files = 'Library/DeptransMenu.h'
 	s.resource_bundles = {
     'DeptransMenu' => ['Library/DeptransMenuResources.bundle']
+    }
   end
