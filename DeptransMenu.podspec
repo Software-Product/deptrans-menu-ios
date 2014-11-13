@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 	s.authors	= { 'Denis Gryzlov' 	=> 'gryzlov@ppr.ru',
                  'Ezistas Batururimi'	=> 'batururimi@ppr.ru',
                  'Artyom Karhanyan' 	=> 'akarhanyan@ppr.ru'}
-	s.source	= { :git => 'https://github.com/Software-Product/deptrans-menu-ios/deptrans-menu-ios.git', :tag => 'v1.1'}           
+	s.source	= { :git => 'https://github.com/Software-Product/deptrans-menu-ios.git', :tag => 'v1.1'}           
 
 	s.platform = :ios, '7.1'
 	s.requires_arc = true
