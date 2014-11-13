@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-	spec.name	= 'DeptransMenu'
+	s.name	= 'DeptransMenu'
 	s.version	= '1.1'
 	s.license	= { :type => 'GNU GENERAL PUBLIC LICENSE' }
 	s.homepage	= 'https://github.com/Software-Product/deptrans-menu-ios'
 	s.social_media_url	= 'http://www.pproduct.ru/ru/'
-	spec.summary = 'A delightful iOS framework for deptrans menu integration'
+	s.summary = 'A delightful iOS framework for deptrans menu integration'
 	s.authors	= { 'Denis Gryzlov' 	=> 'gryzlov@ppr.ru',
                  'Ezistas Batururimi'	=> 'batururimi@ppr.ru',
                  'Artyom Karhanyan' 	=> 'akarhanyan@ppr.ru'}
@@ -18,4 +18,4 @@ Pod::Spec.new do |s|
 	s.resource_bundles = {
     'DeptransMenu' => ['Library/DeptransMenuResources.bundle']
     }
-  end
+end
