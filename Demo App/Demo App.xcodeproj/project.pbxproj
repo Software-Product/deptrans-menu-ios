@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FBE55C61A1A2A9A002DBAC4 /* DeptransMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DeptransMenu.h; path = ../../Library/DeptransMenu.h; sourceTree = "<group>"; };
 		D9DD3F051A00EF3B003EFDB8 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DD3F091A00EF3B003EFDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9DD3F0A1A00EF3B003EFDB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		D9DD3F551A00F701003EFDB8 /* DMBadgeIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMBadgeIcon.m; path = Views/DMBadgeIcon.m; sourceTree = "<group>"; };
 		D9DD3F561A00F701003EFDB8 /* DMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMButton.h; path = Views/DMButton.h; sourceTree = "<group>"; };
 		D9DD3F571A00F701003EFDB8 /* DMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMButton.m; path = Views/DMButton.m; sourceTree = "<group>"; };
-		D9DD3F5A1A00FBCF003EFDB8 /* DeptransMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeptransMenu.h; path = ../../Library/DeptransMenu.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 		D9DD3F311A00F05E003EFDB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D9DD3F5A1A00FBCF003EFDB8 /* DeptransMenu.h */,
+				3FBE55C61A1A2A9A002DBAC4 /* DeptransMenu.h */,
 				D9DD3F421A00F308003EFDB8 /* DeptransMenuResources.bundle */,
 				D9DD3F431A00F308003EFDB8 /* libdeptransMenuLibrary.a */,
 				D9DD3F3B1A00F0E3003EFDB8 /* UIKit.framework */,
