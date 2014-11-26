@@ -37,7 +37,7 @@
         
 //        [DeptransMenu setPerspectiveAnimationDuration:2.0f angle:37.0f scale:0.8f];
 
-        [DeptransMenu setShowsStatusBarOnHostApplication:NO];
+        [DeptransMenu setShowsStatusBarOnHostApplication:YES];
         [DeptransMenu setShowsStatusBarWhenMenuIsOpened:YES];
 
     }

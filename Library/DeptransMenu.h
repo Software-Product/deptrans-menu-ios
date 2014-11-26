@@ -9,8 +9,8 @@
 @interface DeptransMenu : NSObject
 
 /// Запрос статусов
-+ (BOOL) menuIsAvailable;
-+ (BOOL) menuIsVisible;
++ (BOOL) isMenuAvailable;
++ (BOOL) isMenuVisible;
 + (NSUInteger) numberOfUpdatesAvailable;
 
 /// Вывод меню
