@@ -1,24 +1,24 @@
-<meta charset='utf-8'>
-# Транспортное меню <h1>
+# Транспортное меню 
+## Интеграция 
 
-## Интеграция <h2>
-
-- **[1] Добавить библиотеку к проекту (скопировать файлы DeptransMenu.h, DeptransMenuResources.bundle, libdeptransMenuLibrary.a)
+- Добавить библиотеку к проекту (скопировать файлы **DeptransMenu.h**, **DeptransMenuResources.bundle**, **libdeptransMenuLibrary.a**)
 - Подключить библиотеку к тому контроллеру из которого будет открываться меню
-        ```
+
+        
         #import "DeptransMenu.h"
-        ```
-- **[3] Для быстрой предзагрузки данных  также подключить библиотеку к  AppDelegate и вызвать preloadUpdates в методе 
-        ```
+       
+- Для быстрой предзагрузки данных подключить библиотеку к  AppDelegate и вызвать метод **preloadUpdates** в **didFinishLaunchingWithOptions** 
+        
         - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
         {
             /// loads menu's items
             [DeptransMenu preloadUpdates];
             ...
-        ```
-## Конфигурация слайдера <h2>
-Сделать контролер в котором открывается библиотека делегатом (если нужно кастомизировать появление, исчезновение и открытие ссылки при выборе пунтков). подробности смотреть в файле Deptrans.h
-        ```
+        
+## Конфигурация слайдера 
+
+В случае необходимости кастомизировать появление, исчезновение и открытие ссылки при выборе пунтков меню, сделать контроллер в котором открывается меню делегатом. Подробности можно смотреть в файле ***Deptrans.h***
+        
         @inteface myUiviewController()<DeptransMenuDelegate>
 
         ...
@@ -43,4 +43,4 @@
         - (void) onMenuBadgeUpdateNotification:(NSNotification *)note {
         [_menuButton setBadgeValue:[DeptransMenu numberOfUpdatesAvailable]];
         }
-         ```
+         
