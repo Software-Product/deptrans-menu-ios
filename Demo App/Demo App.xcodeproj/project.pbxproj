@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91559B81AE64A60003AB30F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91559B71AE64A60003AB30F /* CoreGraphics.framework */; };
+		D91559BA1AE64A6A003AB30F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91559B91AE64A6A003AB30F /* UIKit.framework */; };
+		D91559BC1AE64A74003AB30F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91559BB1AE64A74003AB30F /* Foundation.framework */; };
 		D942A9401A3B415600792193 /* libdeptransMenuLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D942A93F1A3B415600792193 /* libdeptransMenuLibrary.a */; };
 		D9DD3F0B1A00EF3B003EFDB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DD3F0A1A00EF3B003EFDB8 /* main.m */; };
 		D9DD3F0E1A00EF3B003EFDB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DD3F0D1A00EF3B003EFDB8 /* AppDelegate.m */; };
 		D9DD3F191A00EF3B003EFDB8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DD3F181A00EF3B003EFDB8 /* Images.xcassets */; };
-		D9DD3F381A00F0D1003EFDB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DD3F371A00F0D1003EFDB8 /* CoreGraphics.framework */; };
-		D9DD3F3A1A00F0DA003EFDB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DD3F391A00F0DA003EFDB8 /* Foundation.framework */; };
-		D9DD3F3C1A00F0E3003EFDB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DD3F3B1A00F0E3003EFDB8 /* UIKit.framework */; };
 		D9DD3F401A00F2D7003EFDB8 /* HostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DD3F3F1A00F2D7003EFDB8 /* HostViewController.m */; };
 		D9DD3F441A00F308003EFDB8 /* DeptransMenuResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D9DD3F421A00F308003EFDB8 /* DeptransMenuResources.bundle */; };
 		D9DD3F581A00F701003EFDB8 /* DMBadgeIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DD3F551A00F701003EFDB8 /* DMBadgeIcon.m */; };
@@ -22,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		3FBE55C61A1A2A9A002DBAC4 /* DeptransMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DeptransMenu.h; path = ../../Library/DeptransMenu.h; sourceTree = "<group>"; };
+		D91559B71AE64A60003AB30F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		D91559B91AE64A6A003AB30F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D91559BB1AE64A74003AB30F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D942A93F1A3B415600792193 /* libdeptransMenuLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdeptransMenuLibrary.a; path = ../../Library/libdeptransMenuLibrary.a; sourceTree = "<group>"; };
 		D9DD3F051A00EF3B003EFDB8 /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DD3F091A00EF3B003EFDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,9 +32,6 @@
 		D9DD3F0C1A00EF3B003EFDB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9DD3F0D1A00EF3B003EFDB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D9DD3F181A00EF3B003EFDB8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		D9DD3F371A00F0D1003EFDB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		D9DD3F391A00F0DA003EFDB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D9DD3F3B1A00F0E3003EFDB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D9DD3F3E1A00F2D7003EFDB8 /* HostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HostViewController.h; path = Controllers/HostViewController.h; sourceTree = "<group>"; };
 		D9DD3F3F1A00F2D7003EFDB8 /* HostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HostViewController.m; path = Controllers/HostViewController.m; sourceTree = "<group>"; };
 		D9DD3F421A00F308003EFDB8 /* DeptransMenuResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DeptransMenuResources.bundle; path = ../../Library/DeptransMenuResources.bundle; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DD3F381A00F0D1003EFDB8 /* CoreGraphics.framework in Frameworks */,
+				D91559BC1AE64A74003AB30F /* Foundation.framework in Frameworks */,
+				D91559BA1AE64A6A003AB30F /* UIKit.framework in Frameworks */,
+				D91559B81AE64A60003AB30F /* CoreGraphics.framework in Frameworks */,
 				D942A9401A3B415600792193 /* libdeptransMenuLibrary.a in Frameworks */,
-				D9DD3F3C1A00F0E3003EFDB8 /* UIKit.framework in Frameworks */,
-				D9DD3F3A1A00F0DA003EFDB8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,12 +117,12 @@
 		D9DD3F311A00F05E003EFDB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D91559BB1AE64A74003AB30F /* Foundation.framework */,
+				D91559B91AE64A6A003AB30F /* UIKit.framework */,
+				D91559B71AE64A60003AB30F /* CoreGraphics.framework */,
 				3FBE55C61A1A2A9A002DBAC4 /* DeptransMenu.h */,
 				D942A93F1A3B415600792193 /* libdeptransMenuLibrary.a */,
 				D9DD3F421A00F308003EFDB8 /* DeptransMenuResources.bundle */,
-				D9DD3F3B1A00F0E3003EFDB8 /* UIKit.framework */,
-				D9DD3F391A00F0DA003EFDB8 /* Foundation.framework */,
-				D9DD3F371A00F0D1003EFDB8 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,7 +180,7 @@
 		D9DD3EFB1A00EF0B003EFDB8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0630;
 				TargetAttributes = {
 					D9DD3F041A00EF3B003EFDB8 = {
 						CreatedOnToolsVersion = 6.1;
@@ -238,6 +238,7 @@
 		D9DD3EFF1A00EF0B003EFDB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -292,7 +293,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DemoApp",
-					"/Users/virt/Downloads/deptrans-menu-ios/Library",
+					"$(PROJECT_DIR)/../Library",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -341,7 +342,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/DemoApp",
-					"/Users/virt/Downloads/deptrans-menu-ios/Library",
+					"$(PROJECT_DIR)/../Library",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-all_load";
